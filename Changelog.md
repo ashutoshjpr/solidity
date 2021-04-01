@@ -13,6 +13,7 @@ Compiler Features:
  * SMTChecker: Report out of bounds index access for arrays and fixed bytes.
  * Standard JSON: Model checker option ``settings.modelChecker.targets`` also accepts ``outOfBounds``.
  * Yul Optimizer: Added a new step FunctionSpecializer, that specializes a function with its literal arguments.
+ * NatSpec: Allow ``@notice`` tag on non-public state variables and local variable declarations. The documentation will only be part of the AST, under the field ``documentation``.
 
 
 Bugfixes:
